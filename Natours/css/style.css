@@ -22,7 +22,6 @@ body {
     background-size: cover;
     background-position: top;
     clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);    /* There are 4 points in the square, we take the first point as reference, these points move clockwise, xy,xy,xy,xy */
-
     position: relative;
 
 
@@ -37,19 +36,22 @@ body {
 .logo {
     height: 35px;
 }
+.logo:hover{
+    animation: logoAnimation 1s ease-in-out;
+
+}
 
 .text-box {
     position: absolute;
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);    /* used to set the center of the object */
-
-
 }
 
 .heading-primary {
     color: #fff;
     text-transform: uppercase;
+    backface-visibility: hidden;
 }
 
 .heading-primary-main {
@@ -57,6 +59,7 @@ body {
     font-size: 60px;
     font-weight: 400;
     letter-spacing: 35px;
+    animation: moveInLeft 1s ease-in-out;
 }
 
 .heading-primary-sub {
@@ -64,5 +67,57 @@ body {
     font-size: 20px;
     font-weight: 400;
     letter-spacing: 15px;
+    animation: moveInRight 1s ease-in-out;
+}
 
+
+    @keyframes moveInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+
+    80% {
+        transform: translateX(20px);
+
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+
+    }
+}
+
+@keyframes moveInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+
+    80% {
+        transform: translateX(-20px);
+
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+
+    }
+    
+}
+
+
+@keyframes logoAnimation {
+    0% {
+        transform: scale(1.1);
+
+    }
+
+    100% {
+        transform: scale(1);
+
+    }
+    
 }
