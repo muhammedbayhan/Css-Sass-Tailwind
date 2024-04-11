@@ -1,4 +1,24 @@
-.wh{
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 3em;
+    letter-spacing: 10px;
+    word-spacing: 30px;
+    text-align: justify;
+    text-decoration: underline overline lime wavy;
+    text-indent: 125px;
+    text-transform: uppercase;
+    word-break: break-all;
+    hyphens: auto;
+    text-shadow: 30px 30px 30px blue;
+    /* white-space: pre; */
+    /* font: italic bold 30px/1.7  Arial,sans-serif; */
+    /* em=def size child */
+    /* rem=html size */
+}
+
+.wh {
     max-width: 1000px;
     min-width: 500px;
     min-height: 200px;
@@ -8,14 +28,15 @@
     background-color: red;
 }
 
-.pd{
-   padding: 30px 40px 10px 20px; /*  top-right-bottom-left (clock) vertical-horizontal */
+.pd {
+    padding: 30px 40px 10px 20px;
+    /*  top-right-bottom-left (clock) vertical-horizontal */
     width: 300px;
     height: 300px;
     background-color: lime;
 }
 
-.mr{
+.mr {
     width: 40px;
     height: 40px;
     background-color: aqua;
@@ -23,7 +44,7 @@
     margin: auto;
 }
 
-.border1{
+.border1 {
     width: 200px;
     height: 200px;
     background-color: blue;
@@ -33,7 +54,7 @@
     border: 10px solid white
 }
 
-.border2{
+.border2 {
     width: 200px;
     height: 200px;
     background-color: blue;
@@ -45,7 +66,7 @@
 }
 
 
-.border3{
+.border3 {
     width: 200px;
     height: 200px;
     background-color: blue;
