@@ -22,3 +22,37 @@
     /* margin: 10px 20px 30px 40px; */
     margin: auto;
 }
+
+.border1{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    border-style: dotted;
+    border-width: 5px;
+    border-color: chartreuse;
+    border: 10px solid white
+}
+
+.border2{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    border-style: dotted;
+    border-width: 5px;
+    border-color: chartreuse;
+    border: 10px solid white;
+    box-sizing: border-box;
+}
+
+
+.border3{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    border-style: dotted;
+    border-width: 5px;
+    border-color: chartreuse;
+    border: 10px solid white;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
