@@ -1,0 +1,24 @@
+.wh{
+    max-width: 1000px;
+    min-width: 500px;
+    min-height: 200px;
+    max-width: 300px;
+    width: 32%;
+    height: 33%;
+    background-color: red;
+}
+
+.pd{
+   padding: 30px 40px 10px 20px; /*  top-right-bottom-left (clock) vertical-horizontal */
+    width: 300px;
+    height: 300px;
+    background-color: lime;
+}
+
+.mr{
+    width: 40px;
+    height: 40px;
+    background-color: aqua;
+    /* margin: 10px 20px 30px 40px; */
+    margin: auto;
+}
