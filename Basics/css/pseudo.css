@@ -1,0 +1,91 @@
+.box{
+    color: red;
+}
+.box::after{
+    content: ' Muhammed';
+    color: #000;
+}
+
+.box::before{
+    content: '!!!!! ';
+    color: yellow;
+    background: aqua;
+}
+
+.firstletter::first-letter{
+    font-size: 40px;
+    margin-right: 20px;
+}
+
+.firstline::first-line{
+    color: red;
+}
+
+.firstline::selection{
+    background-color: green;
+}
+input::placeholder{
+    color: aqua;
+    background-color: red;
+}
+
+li:first-child{
+    background-color: yellow;
+}
+
+li:last-child{
+    background-color: aqua;
+}
+
+/* n=odd,even,3n,3n+2,n+4,-n+8, */
+ul li:nth-child(4){ 
+    background-color: rebeccapurple;
+}
+
+ul li:hover{
+    background-color: lime;
+    font-size: 30px;
+}
+
+button:hover + ul{
+    display: none;
+}
+
+
+input[type='radio']:checked +span{
+    color: red;
+}
+
+button:focus{
+    background-color: red;
+}
+
+input:valid{
+    border-color: green;
+}
+
+input:invalid{
+    border-color: red;
+}
+
+.link1:visited{
+    color: green;
+}
+.link1:active{
+    color: red;
+}
+.link1:link{
+    color: red;
+}
+
+
+:root{
+    background-color: red;
+}
+html{
+    background-color: green;
+}
+body{
+    background-color: aqua;
+
+}
