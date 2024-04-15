@@ -1,4 +1,10 @@
 body {
+    background-image: url(../../Natours/img/hero.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-attachment: fixed;
+    background: padding-box center/cover lime url(../../Natours/img/logo-green-small-2x.png),no-repeat content-box;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 32px;
     font-weight: bold;
@@ -76,4 +82,23 @@ body {
     border: 10px solid white;
     box-sizing: border-box;
     border-radius: 30px;
+}
+
+.boxbg{
+    width: 400px;
+    height: 540px;
+background-color: lime;
+}
+
+
+.body{
+    width: 400px;
+    height: 540px;
+background-color: lime;
+}
+
+.box1{
+    width: 400px;
+    height: 400px;
+    background:linear-gradient(to left,red,blue)
 }

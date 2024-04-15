@@ -1,0 +1,19 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.container{
+
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+}
+
+.box{
+ 
+    background: green;
+    font-size: 30px;
+    padding: 30px;
+}
