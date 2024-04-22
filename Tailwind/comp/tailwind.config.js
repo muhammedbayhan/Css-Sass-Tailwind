@@ -17,6 +17,8 @@ export default {
       spacing: {
         'cardW': '30.75rem',
         'billingInfoW': '53.25rem',
+        'rentalInfoW': '53.25rem',
+        'PaymentInfoInput': '362px',
        
       }
     },
