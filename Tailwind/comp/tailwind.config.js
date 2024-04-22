@@ -14,6 +14,10 @@ export default {
       fontFamily: {
         'jakarta': ["Plus Jakarta Sans", "sans-serif"],
       },
+      spacing: {
+        'cardW': '30.75rem',
+        'cardH': '36.25rem',
+      }
     },
   },
   plugins: [],
