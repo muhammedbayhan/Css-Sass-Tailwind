@@ -1,5 +1,5 @@
 import React from 'react'
-
+import car from '../assets/car.png'
 const CarCard = () => {
   return (
     <div className="bg-lightwhite h-screen flex font-jakarta sm:bg-black md:bg-yellow-500 lg:bg-green-500 xl:bg-purple-500 2xl:bg-red-500">

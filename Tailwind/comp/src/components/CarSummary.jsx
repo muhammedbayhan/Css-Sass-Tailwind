@@ -2,7 +2,7 @@ import React from 'react'
 
 const CarSummary = () => {
   return (
-    <div className='Car-Summary bg-white w-cardW h-auto m-auto p-6 rounded-xl'>
+    <div className='Car-Summary bg-white font-jakarta w-cardW h-auto m-auto p-6 rounded-xl'>
     <h1 className='text-xl font-bold'>Rental Summary</h1>
     <p className='text-sm text-slate-400 font-medium py-1'>Prices may change depending on the length of the rental and the price of your rental car.</p>
     <div className='mt-8 flex items-center'>

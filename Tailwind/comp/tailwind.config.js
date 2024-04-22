@@ -16,7 +16,8 @@ export default {
       },
       spacing: {
         'cardW': '30.75rem',
-        'cardH': '36.25rem',
+        'billingInfoW': '53.25rem',
+       
       }
     },
   },
