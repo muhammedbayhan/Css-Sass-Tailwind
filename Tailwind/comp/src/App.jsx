@@ -14,14 +14,9 @@ function App() {
 
   return (
 
-    <div className="bg-lightwhite h-screen w-screen flex  ">
+<>
 
-
- 
-
-
-
-    </div>
+</>
 
 
 
